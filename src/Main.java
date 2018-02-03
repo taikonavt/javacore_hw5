@@ -6,10 +6,6 @@ public class Main {
 
         firstMethod(array1);
         secondMethod(array2, 4);
-
-        for (int i = 1; i < array1.length; i++) {
-            System.out.println(array1[i] + " = " + array2[i]);
-        }
     }
 
     private static float[] createArray() {
